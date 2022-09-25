@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
 
 :root {
-  --color: #cc13cc;
+  --color: #090b5a;
 }
 
 * {
@@ -13,6 +13,7 @@
   transition: all 0.2s linear;
   text-decoration: none;
 }
+
 html {
   font-size: 60%;
   overflow: scroll;
@@ -24,7 +25,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1eff00;
+  background: #9c0808;
 }
 
 body {
@@ -67,7 +68,7 @@ body {
   border: none;
   border-radius: 5rem;
   background: var(--color);
-  color: #fff;
+  color: rgb(212, 199, 199);
   cursor: pointer;
   height: 3.5rem;
   width: 15rem;
@@ -94,7 +95,7 @@ body {
 
 .header .logo {
   font-size: 3rem;
-  color: #fff;
+  color: rgb(240, 221, 221);
 }
 
 .header .logo i {
@@ -114,15 +115,15 @@ body {
 
 .header .navbar ul li a {
   font-size: 2rem;
-  color: #fff;
+  color: rgb(235, 212, 212);
 }
 
 .header .navbar ul li a:hover {
-  color: #ccc;
+  color: rgb(90, 61, 61);
 }
 
 .header .fa-bars {
-  color: #fff;
+  color: rgb(212, 190, 190);
   cursor: pointer;
   font-size: 3rem;
   display: none;
@@ -201,6 +202,7 @@ body {
   0% {
     background-position-x: 0;
   }
+
   100% {
     background-position-x: 100rem;
   }
@@ -249,6 +251,7 @@ body {
 .about .row .content {
   text-align: left;
 }
+
 .about .row .image img {
   width: 50vw;
 }
@@ -311,6 +314,7 @@ body {
   text-align: left;
   padding: 0 3rem;
 }
+
 .service .row .content h3 {
   font-size: 3rem;
   color: var(--color);
@@ -321,12 +325,14 @@ body {
   color: #333;
   padding: 1rem 0;
 }
+
 .team {
   min-height: 100vh;
   width: 100vw;
   text-align: center;
   background-color: #222;
 }
+
 .team .heading {
   color: #fff;
 }
@@ -372,6 +378,7 @@ body {
   font-size: 2rem;
   color: #333;
 }
+
 .team .row .card .info span {
   font-size: 1.3rem;
   color: var(--color);
@@ -416,6 +423,7 @@ body {
   width: 100vw;
   text-align: center;
 }
+
 .contact .row {
   display: flex;
   align-items: center;
@@ -524,6 +532,7 @@ textarea {
   color: #333;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
+
 .faq .row .accordion-container .accordion .accordion-header h3 {
   display: inline;
   color: #fff;
@@ -553,6 +562,7 @@ textarea {
   margin-top: 1rem;
   background: var(--color);
 }
+
 .footer h1 {
   color: #fff;
   letter-spacing: 0.1rem;
@@ -564,6 +574,7 @@ textarea {
   font-size: 2.6rem;
   padding: 0 1rem;
 }
+
 @media (max-width: 768px) {
   html {
     font-size: 50%;
@@ -627,6 +638,7 @@ textarea {
   .service .row {
     flex-flow: column-reverse;
   }
+
   .service .row:nth-child(even) {
     flex-flow: column;
   }
@@ -642,6 +654,7 @@ textarea {
   .contact .row {
     flex-flow: column;
   }
+
   .contact .row .image img {
     width: 100vw;
   }
@@ -654,10 +667,12 @@ textarea {
   .faq {
     padding: 0;
   }
+
   .faq .row {
     padding: 0 1 rem;
     flex-flow: column;
   }
+
   .faq .row .image img {
     width: 100vw;
   }
@@ -675,6 +690,7 @@ textarea {
   .footer h1 {
     text-align: center;
   }
+
   .footer .icons {
     padding: 1rem 0;
   }
